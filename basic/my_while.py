@@ -8,7 +8,7 @@ peoples = ['Jason', 'xiaoming', 'Bob']
 for people in peoples:
     print(people)
 
-print range(5)
+print(range(5))
 
 sum = 0
 for x in range(101):

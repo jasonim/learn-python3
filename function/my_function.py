@@ -33,4 +33,4 @@ def move(x, y, step, angle=0):
     return nx, ny
 
 
-print move(5, 7, 1)
+print(move(5, 7, 1))

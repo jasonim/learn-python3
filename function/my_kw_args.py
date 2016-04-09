@@ -8,5 +8,5 @@ person('Bob', 35, city='Beijing')
 extra = {'city': 'Beijing', 'job': 'Engineer'}
 person('Jack', 24, **extra)
 
-# def person_name(name, age, *, city='Beijing'):
-#     print(name, age, city)
+def person_name(name, age, *, city='Beijing'):
+    print(name, age, city)

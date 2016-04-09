@@ -25,4 +25,4 @@ def calc(*numbers):
     return sum
 
 nums = [1, 2, 3]
-print calc(*nums)
+print(calc(*nums))
