@@ -26,7 +26,10 @@ print('a is Dog?', isinstance(a, Dog))
 print('a is Cat?', isinstance(a, Cat))
 
 print('d is Animal?', isinstance(d, Animal))
+
 print('d is Dog?', isinstance(d, Dog))
 print('d is Cat?', isinstance(d, Cat))
 
 run_twice(c)
+
+print(dir(d))
